@@ -4,28 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shree Hari Enterprise | Premium Packaging</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        .bg-gold { background-color: #FFD700; }
-        .text-gold { color: #FFD700; }
-        .border-gold { border-color: #FFD700; }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
-<body class="bg-[#0F0F0F] text-white font-sans">
+<body>
 
-    <nav class="p-6 flex justify-between items-center border-b border-gray-800">
-        <h1 class="text-2xl font-bold text-gold uppercase tracking-widest">Shree Hari</h1>
-        <ul class="flex gap-8">
-            <li class="hover:text-gold cursor-pointer">Products</li>
-            <li class="hover:text-gold cursor-pointer">About</li>
-            <li class="bg-gold text-black px-4 py-2 rounded font-bold cursor-pointer">Get a Quote</li>
-        </ul>
+    <nav class="navbar fade-in-down">
+        <div class="logo">
+            <i class="ri-box-3-line text-gold"></i> SHREE HARI
+        </div>
+        <a href="#contact" class="nav-btn">Contact Us</a>
     </nav>
 
-    <header class="h-[70vh] flex flex-col justify-center items-center text-center px-4">
-        <h2 class="text-5xl md:text-7xl font-extrabold mb-4">Packaging Solutions <br> <span class="text-gold">Defined by Strength.</span></h2>
-        <p class="text-gray-400 max-w-2xl text-lg">Shree Hari Enterprise provides high-grade packaging materials tailored for industrial and commercial excellence.</p>
+    <header class="hero">
+        <div class="hero-content">
+            <div class="brand-badge reveal">SHREE HARI ENTERPRISE</div>
+            <h1 class="reveal delay-1">Product You Made,<br><span class="text-gold">Packaging We Provide.</span></h1>
+            <p class="reveal delay-2">Manufacturer & Distributor of Industrial Plastic Packaging Materials.</p>
+            <a href="#products" class="cta-button reveal delay-3">View Catalog</a>
+        </div>
     </header>
 
+    <section id="products" class="products">
+        <h2 class="section-title reveal">Our Products</h2>
+        <div class="product-grid">
+            <div class="card reveal delay-1">
+                <div class="icon-box"><i class="ri-tape-line"></i></div>
+                <h3>BOPP Tapes</h3>
+                <p>High-adhesion industrial tapes for secure sealing.</p>
+            </div>
+            <div class="card reveal delay-2">
+                <div class="icon-box"><i class="ri-bubble-chart-line"></i></div>
+                <h3>Air-Bubble</h3>
+                <p>Premium shock absorption for fragile goods.</p>
+            </div>
+            <div class="card reveal delay-3">
+                <div class="icon-box"><i class="ri-file-paper-2-line"></i></div>
+                <h3>Stretch Film</h3>
+                <p>Elastic heavy-duty film for pallet wrapping.</p>
+            </div>
+            <div class="card reveal delay-4">
+                <div class="icon-box"><i class="ri-archive-line"></i></div>
+                <h3>Corrugated Box</h3>
+                <p>Custom-sized, durable boxes for logistics.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer reveal">
+        <div class="footer-content">
+            <h2 class="footer-logo">SHREE HARI</h2>
+            <div class="contact-links">
+                <a href="tel:+917016513480" class="contact-item">
+                    <i class="ri-phone-fill"></i> +91-7016513480
+                </a>
+                <a href="https://instagram.com/shreeharientterprise_" target="_blank" class="contact-item">
+                    <i class="ri-instagram-fill"></i> @shreeharientterprise_
+                </a>
+            </div>
+            <p class="copyright">© 2026 Shree Hari Enterprise. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
