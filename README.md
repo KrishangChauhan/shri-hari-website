@@ -1,1 +1,1 @@
-# shri-hari-website
+# shree-hari-website
